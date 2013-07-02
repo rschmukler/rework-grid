@@ -1,0 +1,20 @@
+{
+  "name": "rework-grid",
+  "version": "0.1.0",
+  "description": "960 inspired grid system for rework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rschmukler/rework-grid"
+  },
+  "keywords": [
+    "rework",
+    "960",
+    "grid"
+  ],
+  "author": "Ryan Schmukler",
+  "license": "MIT"
+}

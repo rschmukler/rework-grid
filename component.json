@@ -1,0 +1,12 @@
+{
+  "name": "rework-grid",
+  "repo": "rschmukler/rework-grid",
+  "version": "0.1.0",
+  "description": "Grid system for rework",
+  "keywords": ["rework", "css", "grid"],
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
