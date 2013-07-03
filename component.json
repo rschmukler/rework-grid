@@ -6,7 +6,10 @@
   "keywords": ["rework", "css", "grid"],
   "dependencies": {},
   "scripts": [
-    "index.js"
+    "index.js",
+    "lib/columns.js",
+    "lib/container.js",
+    "lib/position.js"
   ],
   "main": "index.js"
 }
