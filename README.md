@@ -7,11 +7,13 @@ Grid system for rework. Based off of 960.gs
     var rework = require('rework'),
         grid = require('rework-grid');
 
-    grid.numColumns = 12;
-    grid.gutterWidth = 20;
-    grid.width = 960;
+    var gridConfig = {
+      numColumns = 12,
+      gutterWidth = 20,
+      width = 960
+    }
 
-    rework('some css').use(grid);
+    rework('some css').use(rework.mixin(grid(gridConfig)));
 
 
 # Added Properties
