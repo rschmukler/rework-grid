@@ -18,6 +18,6 @@
   "author": "Ryan Schmukler",
   "license": "MIT",
   "dependencies": {
-    "rework-mixins": "~1.1.1"
+    "rework": "~0.17.0"
   }
 }

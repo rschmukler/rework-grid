@@ -1,11 +1,8 @@
-var mixins = require('rework-mixins');
-
-var grid = {};
-
-grid['grid-column'] = require('./lib/columns.js');
-grid['grid-position'] = require('./lib/position.js');
-grid['grid-container'] = require('./lib/container.js');
-
-module.exports = function(_, rework) {
-  rework.mixin(grid);
+module.exports = function(config) {
+  var grid = {
+    'grid-column'   : require('./lib/columns.js')(config),
+    'grid-position' : require('./lib/position.js'),
+    'grid-container': require('./lib/container.js')(config)
+  };
+  return grid;
 };
