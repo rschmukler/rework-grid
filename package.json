@@ -16,5 +16,8 @@
     "grid"
   ],
   "author": "Ryan Schmukler",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rework-mixins": "~1.1.1"
+  }
 }
