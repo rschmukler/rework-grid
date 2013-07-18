@@ -1,7 +1,7 @@
 {
   "name": "rework-grid",
   "repo": "rschmukler/rework-grid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Grid system for rework",
   "keywords": ["rework", "css", "grid"],
   "dependencies": {
@@ -10,6 +10,7 @@
   "scripts": [
     "index.js",
     "lib/columns.js",
+    "lib/column-offset.js",
     "lib/container.js",
     "lib/position.js"
   ],
